@@ -111,8 +111,8 @@ export default function Translator() {
     <div
       className={`min-h-screen py-10 font-[Poppins] ${
         darkMode
-          ? "bg-gradient-to-br from-gray-900 to-gray-700 text-gray-200"
-          : "bg-gradient-to-br from-blue-50 to-white text-gray-800"
+          ? "bg-gradient-to-br from-gray-900 to-gray-600 text-gray-200"
+          : "bg-gradient-to-br from-blue-300 to-white text-gray-800"
       }`}
     >
       <div
@@ -159,10 +159,10 @@ export default function Translator() {
 
         <button
           onClick={handleTranslate}
-          className={`w-full py-3 rounded-xl transition-all duration-300 shadow-md ${
+          className={`w-full py-3 rounded-xl transition-all duration-300 shadow-md font-semibold  ${
             darkMode
               ? "bg-gray-600 text-gray-200 hover:bg-gray-500"
-              : "bg-primary text-white hover:bg-blue-700"
+              : "bg-blue-500 text-white hover:bg-blue-700"
           }`}
         >
           Translate
@@ -181,7 +181,7 @@ export default function Translator() {
         {translated && (
           <button
             onClick={handleVoiceOutput}
-            className={`w-full py-3 rounded-xl transition-all duration-300 shadow-md mt-4 ${
+            className={`w-full py-3 rounded-xl transition-all duration-300 shadow-md mt-4 font-semibold  ${
               darkMode
                 ? "bg-green-700 text-gray-200 hover:bg-green-600"
                 : "bg-green-600 text-white hover:bg-green-700"
@@ -193,14 +193,14 @@ export default function Translator() {
 
         <button
           onClick={handleMicInput}
-          className={`w-full py-3 rounded-xl transition-all duration-300 shadow-md mt-4 ${
+          className={`w-full py-3 rounded-xl transition-all duration-300 shadow-md mt-4 font-semibold  ${
             darkMode
               ? "bg-blue-700 text-gray-200 hover:bg-blue-600"
               : "bg-blue-600 text-white hover:bg-blue-700"
           } ${isListening ? "opacity-50 cursor-not-allowed" : ""}`}
           disabled={isListening}
         >
-          {isListening ? "Listening..." : "🎙Speak"}
+          {isListening ? "Listening..." : "🎙Speech input"}
         </button>
       </div>
 
@@ -232,3 +232,4 @@ export default function Translator() {
     </div>
   );
 }
+
