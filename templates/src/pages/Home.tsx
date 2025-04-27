@@ -86,8 +86,8 @@ export default function Home() {
     <div
       className={`min-h-screen py-10 px-4 ${
         darkMode
-          ? "bg-gradient-to-br from-gray-900 to-gray-700"
-          : "bg-gradient-to-br from-primary to-blue-900"
+          ? "bg-gradient-to-br from-gray-900 to-gray-600"
+          : "bg-gradient-to-br from-blue-300 to-white"
       }`}
     >
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -98,10 +98,10 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className={`${
+            className={`font-[Poppins] ${
               darkMode
                 ? "bg-gray-800/90 hover:shadow-gray-500"
-                : "bg-stone-800/90 hover:shadow-primary"
+                : "bg-stone-700/90 hover:shadow-primary"
             } p-8 rounded-3xl shadow-2xl transition-all`}
           >
             <h1
@@ -150,7 +150,7 @@ export default function Home() {
             <button
               onClick={askGuide}
               className={`w-full ${
-                darkMode ? "bg-gray-600 hover:bg-gray-500" : "bg-primary hover:bg-primary/90"
+                darkMode ? "bg-gray-600 hover:bg-gray-500" : "bg-stone-800/90 hover:bg-primary/90"
               } text-white py-3 rounded-lg font-semibold transition-all`}
             >
               Ask
@@ -165,7 +165,7 @@ export default function Home() {
             className={`${
               darkMode
                 ? "bg-gray-800/90 hover:shadow-gray-500"
-                : "bg-stone-800/90 hover:shadow-primary"
+                : "bg-stone-700/90 hover:shadow-primary"
             } p-8 rounded-3xl shadow-2xl transition-all`}
           >
             <h3
@@ -196,7 +196,7 @@ export default function Home() {
             <button
               onClick={askWithImage}
               className={`w-full ${
-                darkMode ? "bg-gray-600 hover:bg-gray-500" : "bg-primary hover:bg-primary/90"
+                darkMode ? "bg-gray-600 hover:bg-gray-500" : "bg-stone-800/90 hover:bg-primary/90"
               } text-white py-3 rounded-lg font-semibold transition-all mb-6`}
             >
               Ask With Image
