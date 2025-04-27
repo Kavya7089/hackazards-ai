@@ -1,6 +1,6 @@
 // src/components/Loader.tsx
 import { useEffect, useState } from 'react';
-import './Loader.css'; // Import the CSS file for styling
+import './loader.css'; // Import the CSS file for styling
 
 const Loader = () => {
   const [count, setCount] = useState(1);
