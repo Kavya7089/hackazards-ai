@@ -32,8 +32,8 @@ export default function Contact() {
     <div
       className={`min-h-screen py-10 font-[Poppins] ${
         darkMode
-          ? "bg-gradient-to-br from-gray-900 to-gray-700 text-gray-200"
-          : "bg-gradient-to-br from-blue-50 to-white text-gray-800"
+          ? "bg-gradient-to-br from-gray-900 to-gray-600 text-gray-200"
+          : "bg-gradient-to-br from-blue-300 to-white text-gray-800"
       }`}
     >
       <div
