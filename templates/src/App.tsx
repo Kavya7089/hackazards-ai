@@ -7,7 +7,7 @@ import Places from './pages/Places';
 import Shopping from './pages/Shopping';
 import Translator from './pages/Translator';
 import Loader from './components/Loader';  // Import your Loader component
-import Contact from './pages/contact';
+import Contact from './pages/Contact';
 
 function App() {
   const [loading, setLoading] = useState(true);
