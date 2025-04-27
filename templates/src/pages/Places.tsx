@@ -73,8 +73,8 @@ export default function Places() {
     <div
       className={`min-h-screen py-10 font-[Poppins] ${
         darkMode
-          ? "bg-gradient-to-br from-gray-900 to-gray-700 text-gray-200"
-          : "bg-gradient-to-br from-blue-50 to-white text-gray-800"
+          ? "bg-gradient-to-br from-gray-900 to-gray-600 text-gray-200"
+          : "bg-gradient-to-br from-blue-300 to-white text-gray-800"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4">
@@ -106,7 +106,7 @@ export default function Places() {
             className={`px-6 py-3 rounded-full shadow-md transition-all duration-300 ${
               darkMode
                 ? "bg-gray-600 text-gray-200 hover:bg-gray-500"
-                : "bg-primary text-white hover:bg-blue-700"
+                : "bg-blue-500 text-white hover:bg-blue-700"
             }`}
           >
             Search
