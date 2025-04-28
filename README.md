@@ -42,17 +42,17 @@ Pillow (PIL) for image processing
 Torch for deep learning models
 Installation
 1. Clone the Repository:  
-   :- git clone https://github.com/Kavya7089/hackazards-ai.git
-    :- cd hachazards-ai
+   **git clone https://github.com/Kavya7089/hackazards-ai.git**
+   **cd hachazards-ai**
 2. Set enviorment:  
-    python -m venv venv
+    **python -m venv venv**
 3. Activate enviorment:  
-    venv\Scripts\activate
+    **venv\Scripts\activate**
 4. Install Backend Dependencies:
-   pip install -r requirements.txt
+   **pip install -r requirements.txt**
 5. Install Frontend Dependencies:
-    :- cd template
-    :- npm install
+     **cd template**
+    **npm install**
 6. Set Up Environment Variables
 Create a .env file in the backend directory.
 Add the following variables:
@@ -60,11 +60,11 @@ Add the following variables:
     # GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 
 7. Start the Backend Server
-    :-cd ..
-    :-python app.py
+    **cd ..**
+    **python app.py**
 8. Start the Frontend Development Server
-   :-cd templates
-   :-npm run dev
+   **cd templates**
+   **npm run dev**
 API Endpoints
 Backend API
 GET /places
