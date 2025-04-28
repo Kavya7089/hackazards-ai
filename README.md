@@ -1,4 +1,4 @@
-#AI Tour Guide
+# AI Tour Guide
 AI Tour Guide is a web application that provides users with personalized travel assistance. It offers features such as hotel recommendations, tourist attraction details, shopping locations, text translation, and image-based landmark recognition. The project leverages AI-powered APIs and machine learning models to deliver accurate and user-friendly travel information.
 
 Features
