@@ -1,4 +1,4 @@
-AI Tour Guide
+#AI Tour Guide
 AI Tour Guide is a web application that provides users with personalized travel assistance. It offers features such as hotel recommendations, tourist attraction details, shopping locations, text translation, and image-based landmark recognition. The project leverages AI-powered APIs and machine learning models to deliver accurate and user-friendly travel information.
 
 Features
@@ -43,7 +43,7 @@ Torch for deep learning models
 Installation
 1. Clone the Repository:  
    **git clone https://github.com/Kavya7089/hackazards-ai.git**
-   **cd hachazards-ai**
+   ,**cd hachazards-ai**
 2. Set enviorment:  
     **python -m venv venv**
 3. Activate enviorment:  
@@ -52,7 +52,7 @@ Installation
    **pip install -r requirements.txt**
 5. Install Frontend Dependencies:
      **cd template**
-    **npm install**
+    ,**npm install**
 6. Set Up Environment Variables
 Create a .env file in the backend directory.
 Add the following variables:
@@ -64,7 +64,7 @@ Add the following variables:
     **python app.py**
 8. Start the Frontend Development Server
    **cd templates**
-   **npm run dev**
+   ,**npm run dev**
 API Endpoints
 Backend API
 GET /places
