@@ -42,13 +42,29 @@ Pillow (PIL) for image processing
 Torch for deep learning models
 Installation
 1. Clone the Repository
-2. Install Backend Dependencies
-3. Install Frontend Dependencies
-4. Set Up Environment Variables
+    git clone https://github.com/Kavya7089/hackazards-ai.git
+     cd hachazards-ai
+2. Set enviorment
+    python -m venv venv
+3. Activate enviorment
+    venv\Scripts\activate
+4. Install Backend Dependencies
+   pip install -r requirements.txt
+5. Install Frontend Dependencies
+    cd template
+    npm install
+6. Set Up Environment Variables
 Create a .env file in the backend directory.
 Add the following variables:
-5. Start the Backend Server
-6. Start the Frontend Development Server
+    GROQ_API_KEY=your_groq_api_key
+    GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+
+7. Start the Backend Server
+    cd ..
+    python app.py
+8. Start the Frontend Development Server
+   cd templates
+   npm run dev
 API Endpoints
 Backend API
 GET /places
@@ -66,9 +82,7 @@ Translates text into the specified language.
 POST /image-search
 
 Processes an uploaded image and returns related information.
-File Structure
-Environment Variables
-Add the following variables to the .env file in the backend directory:
+
 
 How to Use
 Home Page:
